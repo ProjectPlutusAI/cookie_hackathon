@@ -12,7 +12,7 @@ Project Plutus integrates AI capabilities with blockchain networks and Web3 prot
 
 ## Features
 
-- **AI-Driven Market Insights**: Analyzes periodic snapshots of cookie data to track:
+- AI-Driven Market Insights: Analyzes periodic snapshots of cookie data to track:
 
   1. Trends in mindshare and social metrics (impressions, followers, engagements)
   2. Market cap and volume trends
@@ -20,14 +20,14 @@ Project Plutus integrates AI capabilities with blockchain networks and Web3 prot
   4. Holder count changes\
      Using Deepseek LLM
 
-- **Autonomous Trading Decisions**:
+- Autonomous Trading Decisions:
 
   - Executes WAIT and BUY actions autonomously based on market conditions.
-  - On-chain trading actions are powered by **solana-agent-kit**.
+  - On-chain trading actions are powered by SendKit.
 
-- **Hedging with Liquidity Pools**:
+- Hedging with Liquidity Pools:
 
-  - The system can autonomously decide to hedge risk by creating a one-sided **Metora pool**, optimizing asset protection.
+  - The system can autonomously decide to hedge risk by creating a one-sided Metora pool, optimizing asset protection.
 
 - Users can check actions on the frontend and see the reasons the AI agent gave to each action before performing it
 
@@ -36,41 +36,48 @@ Project Plutus integrates AI capabilities with blockchain networks and Web3 prot
 ### Frontend Setup
 
 1. Install dependencies:
-   ```bash
+   
+bash
    npm install
-   ```
+   
 2. Input environment variables:
-   ```bash
+   
+bash
    cp .env.example .env
-   ```
+   
 3. Build and run the frontend:
-   ```bash
+   
+bash
    npm run dev
-   ```
+   
 
 ### Backend Setup
 
 1. Install dependencies:
-   ```bash
+   
+bash
    npm install
-   ```
+   
 2. Use the correct Node.js version:
-   ```bash
+   
+bash
    nvm use 23.1.0
-   ```
+   
 3. Input correct environment variables:
-   ```bash
+   
+bash
    cp .env.example .env
-   ```
+   
 4. Build and start the backend:
-   ```bash
+   
+bash
    npx ts-node src/server.ts
-   ```
+   
 
 ## Tech Stack
 
-- **Next.js 14 (App Router)**
-- **solana-agent-kit** for on-chain execution
+- Next.js 14 (App Router)
+- SendKit for on-chain execution
 - Node.js
 
 ## Requirements
@@ -78,65 +85,21 @@ Project Plutus integrates AI capabilities with blockchain networks and Web3 prot
 - Node.js >= 23.1.0
 - npm >= 8.0.0
 
-cp .env.example .env
-
-Build and run the frontend:
-
-npm run dev
-
-Backend Setup
-
-Install dependencies:
-
-npm install
-
-Use the correct Node.js version:
-
-nvm use 23.1.0
-
-Input correct environment variables:
-
-cp .env.example .env
-
-Build and start the backend:
-
-npx ts-node /src/server.ts
-
-Tech Stack
-
-Next.js 14 (App Router)
-
-SendKit for on-chain execution
-
-Node.js
-
-Requirements
-
-Node.js >= 23.1.0
-
-npm >= 8.0.0
-
-License
-=======
 ## License
 
 MIT
 
 ## Team
 
-- potato
-- ycrydev
-
-
+- [potato]
+- [ycrydev]
 
 ## Acknowledgments
 
-We would like to express our gratitude to CookieDAO for organizing and supporting this hackathon. Their efforts have made this project possible.
-
+Special thanks to CookieDAO and the DataSwarm Hackathon organizers for providing the platform to innovate in AI and crypto integration.
 
 ## Social Media
 
 Follow our development:
 
 - Twitter: @ProjectPlutus\_
-
