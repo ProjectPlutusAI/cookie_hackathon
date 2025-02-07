@@ -48,7 +48,6 @@ cp .env.example .env
 
 Build and run the frontend:
 
-npm run build
 npm run dev
 
 Backend Setup
@@ -67,8 +66,7 @@ cp .env.example .env
 
 Build and start the backend:
 
-npm run build
-npm run dev
+npx ts-node /src/server.ts
 
 Tech Stack
 

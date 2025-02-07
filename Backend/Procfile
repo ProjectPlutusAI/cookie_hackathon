@@ -1,0 +1,2 @@
+web: npx ts-node src/server.ts
+tokenDataQueue1: npx ts-node src/queues/tokenDataQueue.ts
