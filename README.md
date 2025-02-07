@@ -45,7 +45,6 @@ Project Plutus integrates AI capabilities with blockchain networks and Web3 prot
    ```
 3. Build and run the frontend:
    ```bash
-   npm run build
    npm run dev
    ```
 
@@ -65,8 +64,7 @@ Project Plutus integrates AI capabilities with blockchain networks and Web3 prot
    ```
 4. Build and start the backend:
    ```bash
-   npm run build
-   npm run dev
+   npx ts-node src/server.ts
    ```
 
 ## Tech Stack
